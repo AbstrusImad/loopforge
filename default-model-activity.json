@@ -1,0 +1,768 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+  "mocked": false,
+  "leader_only": false,
+  "public_evidence_commit": "9e6fc1e75845b663add8e305a77d8f700f4732ac",
+  "scenario": "Reference documents do not prove physical batches; incompatible or incomplete legs must block consent.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/plastic/basics.md",
+      "sha256": "078bdf7993d2c61410a60a81abb08b4d7b766c182e3a2b1e41b8a4196e864746"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/build/shredderprorun.md",
+      "sha256": "f0cadfc2cdf7ce02e986bfbe231f8b71b7f5c67ff45180d365f67b9ee7c972fa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/plastic/geeky.md",
+      "sha256": "d840db6f3f90d611f2c7f7102e2b270dcf1828e59e08972a472ce1ea109b7e1e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/plastic/safety.md",
+      "sha256": "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+    }
+  ],
+  "transactions": [
+    {
+      "tx": "0x4d6808dce1738501d606570756aacc2416d6cd93753acacb9ca64159c09a9a72",
+      "method": "set_source",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0x82c3ae9a8ea70f335e6ac8a662a9d63bd61060c56d70309a2eefe5223c141aa9",
+      "method": "create_lot",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0xcfcd3cadebb06e268af0be2037fbdb8126e7b6f02eeaf8c2269a759f838a4591",
+      "method": "create_need",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x59c6097e1ab358d317a7fc095a6c25cef84b64532d47ee23c182bb7e343bff45",
+      "method": "create_lot",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0xb7a83d9dc1043e64ed1e5b5634f2922edb27abd1f791c999708687cdd3f78415",
+      "method": "create_need",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0xc1bf082b31194fdad7fcd65cc26abd0d866cd6084672d1ebca01ba2ab9806c73",
+      "method": "create_lot",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 4,
+          "idle": 1
+        }
+      }
+    },
+    {
+      "tx": "0x180612e1cbebd821c5aa12ca7fa4049983386412e5e8407afd3730ea29b05133",
+      "method": "create_need",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 1,
+          "agree": 4
+        }
+      }
+    },
+    {
+      "tx": "0x07e33a501d4b393204c1cc6eea46e42d2c22e4b7263493352e6adf2c0f375604",
+      "method": "propose_cycle",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0x914e6b7ef26d1de3917dd407f3df35fee949ed23ccf7f351e4bff9813f450216",
+      "method": "review_fit",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"078bdf7993d2c61410a60a81abb08b4d7b766c182e3a2b1e41b8a4196e864746\",\"26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1\"],\"explanation\":\"The need document explicitly rejects PVC, and the supply document identifies the material as PVC. Both documents independently confirm this incompatibility: the need states 'reject PVC' and documents that PVC releases dioxins and is not safe to process, while the supply document states 'PVC is toxic and we do not work with it' and 'don't use it' with Precious Plastic machines. This is a documented contradiction, not merely an absence of information. The 400g exchange quantity is above the 1g minimum, so quantity is not the disqualifying factor; the material identity itself is the disqualifying factor.\",\"quotes\":{\"need\":\"y toxic compound that has been shown to increase cancer, reproductive problems and immune system damage. At Precious Plastic, we don\\u2019t work with PVC.\\n\\nIf you do need to burn a small piece of plastic to identify its type, then do so taking the proper precautions: wearing a mask and beside a proper fume filtration system. The most important thing about working with plastic: <b>You can melt it, you just can\\u2019t burn it.</b> And that\\u2019s an important difference.\\n\\n##  Volatile Organic\",\"supply\":\"cking film<br>\\n<b>Best ways to use with PP machines:</b> HDPE works very similar to PP, low melting temperature and easy to mould. Great material to use!\\n\\n<img style=\\\"margin-left: 0; margin-top: 50px\\\" src=\\\"../assets/plastic/type-pvc.svg\\\" width=\\\"80\\\"/>\\n\\n### PVC (3): Polyvinyl chloride\\nPVC is toxic and we do not work with it. It is most commonly found in plumbing pipes and releases chloride when heated up - we do not recommend using with Precious Plastic machines!\\n\\n<b> Propertie\"},\"reason\":\"semantic_review\",\"verdict\":\"no_fit\"}"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0x62bbc45e461578cb4766a90f452d7f654997158926e1f9e4643f47464427cf12",
+      "method": "review_fit",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"f0cadfc2cdf7ce02e986bfbe231f8b71b7f5c67ff45180d365f67b9ee7c972fa\",\"26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1\"],\"explanation\":\"The lot provides a generic HDPE declaration with no batch-specific measurements, contamination certificates, or evidence of sorting and cleanliness. While HDPE is an accepted polymer for Precious Plastic machines, the need explicitly requires documented proof of batch purity and compliance with processing constraints. The supplied material lacks this required documentation, making it impossible to confirm fit for the 400\\u202fg exchange.\",\"quotes\":{},\"reason\":\"semantic_review\",\"verdict\":\"uncertain\"}"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "disagree": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x93fc7a1287f02b2d12b16fbb003681391fd847b01273dd32af04edbb0a2fc7d0",
+      "method": "review_fit",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"d840db6f3f90d611f2c7f7102e2b270dcf1828e59e08972a472ce1ea109b7e1e\",\"26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1\"],\"explanation\":\"The lot only provides a public PET declaration with no batch measurements, cleanliness verification, or contamination certificate. The Precious Plastic need explicitly requires documented evidence of batch purity and compatible processing constraints. The safety document lists acceptable plastics (PP, LDPE, HDPE) and warns against PVC and ABS, but does not confirm PET suitability for the required 400\\u202fg batch. Because the necessary compatibility evidence is missing, a positive fit cannot be established, leading to an uncertain outcome.\",\"quotes\":{\"need\":\"---\\nid: safety\\ntitle: Safety and Fumes\\nsidebar_label: Safety and Fumes\\n---\\n\\n<div class=\\\"videocontainer\\\">\\n  <iframe width=\\\"800\\\" height=\\\"400\\\" src=\\\"https://www.youtube.com/embed/bsj6qHHLynk\\\" frameborder=\\\"0\\\" allow=\\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\\" allowfullscreen></iframe>\\n</div>\\n\\n<style>\\n:root {\\n  --highlight: #ffe084;\\n  --links: #29bbe3;\\n  --hover: rgb(131, 206, 235);\\n}\\n</style>\\n\\n# Safety and Fumes\\n\\n<div class=\\\"videoChapters\\\">\\n<div class=\",\"supply\":\"---\\nid: nerdy\\ntitle: Go nerdy on Plastic\\nsidebar_label: Nerdy on Plastic\\n---\\n\\n<div class=\\\"videocontainer\\\">\\n  <iframe width=\\\"800\\\" height=\\\"400\\\" src=\\\"https://www.youtube.com/embed/T5lAKQij1F4\\\" frameborder=\\\"0\\\" allow=\\\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\\\" allowfullscreen></iframe>\\n</div>\\n\\n<style>\\n:root {\\n  --highlight: #ffe084;\\n  --links: #29bbe3;\\n  --hover: rgb(131, 206, 235);\\n}\\n</style>\\n\\n# Going nerdy on plastic\\n\\n<div class=\\\"videoChapters\\\">\\n<di\"},\"reason\":\"semantic_review\",\"verdict\":\"uncertain\"}"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "disagree": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0xbfe08d24709da2f51928dc994edb623e033fc95b067f77ae3223a6fb3d6f5974",
+      "method": "approve_cycle",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "every material leg must fit",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] every material leg must fit"
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0x0f884faeb33081dd71a61d5e2c2909b19261a43dac7cb92e5ea394df76a74c20",
+      "method": "lock_cycle",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "unanimous bonded fit required",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] unanimous bonded fit required"
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0x5aa76ebd00055749595f609a80ced4b96609f67bba9f770bf0fc8589e2af1b3b",
+      "method": "revoke_consent",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "no revocable draft consent",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] no revocable draft consent"
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0xe7018a903a9e3e47429004a2788422ad5a6312dda282f3dac0f6d44a4ed7c6f2",
+      "method": "cancel_cycle",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x6f1da9e0f8e9964e7b5354789588d0fe84a056e1243037193233d6319c4e0c01",
+      "method": "retire_lot",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 4,
+          "idle": 1
+        }
+      }
+    },
+    {
+      "tx": "0x318cc43b95cd7637d29837190b9d287e5bc8921b239c6a48166150bac1f22d47",
+      "method": "retire_need",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0x9671fd5b7bee49729d4f54b586e5327ee3457254589831cf2e7f6ff5ab9f3c11",
+      "method": "retire_lot",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0xf599994a2ade25e335c52c9c47a134c7cbdd645e89776167b489357c297c3a6c",
+      "method": "retire_need",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 4,
+          "idle": 1
+        }
+      }
+    },
+    {
+      "tx": "0xd6a786d40caca91abab95fdc38beedbb02464381553579ad3cc61558132ec410",
+      "method": "retire_lot",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x6a6f3038577631ed84be2be249b6e26a393003fc38604e4fa1853337eb9639c9",
+      "method": "retire_need",
+      "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    }
+  ],
+  "review_snapshot": {
+    "accept_by": 1791139839,
+    "approvals": [
+      false,
+      false,
+      false
+    ],
+    "bond_atto": "17",
+    "close_by": 1791312639,
+    "deliveries": [
+      {
+        "argument": "",
+        "challenged": false,
+        "dispatched": false,
+        "reviews": [],
+        "sha256": "",
+        "url": "",
+        "verdict": "pending"
+      },
+      {
+        "argument": "",
+        "challenged": false,
+        "dispatched": false,
+        "reviews": [],
+        "sha256": "",
+        "url": "",
+        "verdict": "pending"
+      },
+      {
+        "argument": "",
+        "challenged": false,
+        "dispatched": false,
+        "reviews": [],
+        "sha256": "",
+        "url": "",
+        "verdict": "pending"
+      }
+    ],
+    "dispatch_by": 1791226239,
+    "fits": [
+      {
+        "evidence_hashes": [
+          "078bdf7993d2c61410a60a81abb08b4d7b766c182e3a2b1e41b8a4196e864746",
+          "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+        ],
+        "explanation": "The need document explicitly rejects PVC, and the supply document identifies the material as PVC. Both documents independently confirm this incompatibility: the need states 'reject PVC' and documents that PVC releases dioxins and is not safe to process, while the supply document states 'PVC is toxic and we do not work with it' and 'don't use it' with Precious Plastic machines. This is a documented contradiction, not merely an absence of information. The 400g exchange quantity is above the 1g minimum, so quantity is not the disqualifying factor; the material identity itself is the disqualifying factor.",
+        "quotes": {
+          "need": "y toxic compound that has been shown to increase cancer, reproductive problems and immune system damage. At Precious Plastic, we don\u2019t work with PVC.\n\nIf you do need to burn a small piece of plastic to identify its type, then do so taking the proper precautions: wearing a mask and beside a proper fume filtration system. The most important thing about working with plastic: <b>You can melt it, you just can\u2019t burn it.</b> And that\u2019s an important difference.\n\n##  Volatile Organic",
+          "supply": "cking film<br>\n<b>Best ways to use with PP machines:</b> HDPE works very similar to PP, low melting temperature and easy to mould. Great material to use!\n\n<img style=\"margin-left: 0; margin-top: 50px\" src=\"../assets/plastic/type-pvc.svg\" width=\"80\"/>\n\n### PVC (3): Polyvinyl chloride\nPVC is toxic and we do not work with it. It is most commonly found in plumbing pipes and releases chloride when heated up - we do not recommend using with Precious Plastic machines!\n\n<b> Propertie"
+        },
+        "reason": "semantic_review",
+        "verdict": "no_fit"
+      },
+      {
+        "evidence_hashes": [
+          "f0cadfc2cdf7ce02e986bfbe231f8b71b7f5c67ff45180d365f67b9ee7c972fa",
+          "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+        ],
+        "explanation": "The lot provides a generic HDPE declaration with no batch-specific measurements, contamination certificates, or evidence of sorting and cleanliness. While HDPE is an accepted polymer for Precious Plastic machines, the need explicitly requires documented proof of batch purity and compliance with processing constraints. The supplied material lacks this required documentation, making it impossible to confirm fit for the 400\u202fg exchange.",
+        "quotes": {},
+        "reason": "semantic_review",
+        "verdict": "uncertain"
+      },
+      {
+        "evidence_hashes": [
+          "d840db6f3f90d611f2c7f7102e2b270dcf1828e59e08972a472ce1ea109b7e1e",
+          "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+        ],
+        "explanation": "The lot only provides a public PET declaration with no batch measurements, cleanliness verification, or contamination certificate. The Precious Plastic need explicitly requires documented evidence of batch purity and compatible processing constraints. The safety document lists acceptable plastics (PP, LDPE, HDPE) and warns against PVC and ABS, but does not confirm PET suitability for the required 400\u202fg batch. Because the necessary compatibility evidence is missing, a positive fit cannot be established, leading to an uncertain outcome.",
+        "quotes": {
+          "need": "---\nid: safety\ntitle: Safety and Fumes\nsidebar_label: Safety and Fumes\n---\n\n<div class=\"videocontainer\">\n  <iframe width=\"800\" height=\"400\" src=\"https://www.youtube.com/embed/bsj6qHHLynk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n<style>\n:root {\n  --highlight: #ffe084;\n  --links: #29bbe3;\n  --hover: rgb(131, 206, 235);\n}\n</style>\n\n# Safety and Fumes\n\n<div class=\"videoChapters\">\n<div class=",
+          "supply": "---\nid: nerdy\ntitle: Go nerdy on Plastic\nsidebar_label: Nerdy on Plastic\n---\n\n<div class=\"videocontainer\">\n  <iframe width=\"800\" height=\"400\" src=\"https://www.youtube.com/embed/T5lAKQij1F4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n<style>\n:root {\n  --highlight: #ffe084;\n  --links: #29bbe3;\n  --hover: rgb(131, 206, 235);\n}\n</style>\n\n# Going nerdy on plastic\n\n<div class=\"videoChapters\">\n<di"
+        },
+        "reason": "semantic_review",
+        "verdict": "uncertain"
+      }
+    ],
+    "grams": [
+      400,
+      400,
+      400
+    ],
+    "id": 1,
+    "lots": [
+      1,
+      2,
+      3
+    ],
+    "needs": [
+      2,
+      3,
+      1
+    ],
+    "owners": [
+      "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "0x60032dbeB40927fB4D31d001E736Da28748bEed2"
+    ],
+    "phase": "draft",
+    "proposer": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "receipt_ids": [],
+    "settlement_consents": [
+      false,
+      false,
+      false
+    ],
+    "sources": [
+      "https://raw.githubusercontent.com/ONEARMY/academy/"
+    ]
+  },
+  "status": "real_default_model_blocking_cycle_verified",
+  "snapshot": {
+    "active_sources": [
+      "https://raw.githubusercontent.com/ONEARMY/academy/"
+    ],
+    "available_grams": "0",
+    "bond_escrow_atto": "0",
+    "claimable_atto": "0",
+    "curator": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "cycles": 1,
+    "introduced_grams": "3000",
+    "lots": 3,
+    "max_cycle_legs": 6,
+    "max_cycles": 1024,
+    "max_document_bytes": 16384,
+    "needs": 3,
+    "paid_in_atto": "0",
+    "receipt_grams": "0",
+    "receipts": 0,
+    "reserved_grams": "0",
+    "retired_grams": "3000",
+    "title": "LoopForge StudioNet Clearing",
+    "unreconciled_grams": "0",
+    "withdrawn_atto": "0"
+  },
+  "final_cycle": {
+    "accept_by": 1791139839,
+    "approvals": [
+      false,
+      false,
+      false
+    ],
+    "bond_atto": "17",
+    "close_by": 1791312639,
+    "deliveries": [
+      {
+        "argument": "",
+        "challenged": false,
+        "dispatched": false,
+        "reviews": [],
+        "sha256": "",
+        "url": "",
+        "verdict": "pending"
+      },
+      {
+        "argument": "",
+        "challenged": false,
+        "dispatched": false,
+        "reviews": [],
+        "sha256": "",
+        "url": "",
+        "verdict": "pending"
+      },
+      {
+        "argument": "",
+        "challenged": false,
+        "dispatched": false,
+        "reviews": [],
+        "sha256": "",
+        "url": "",
+        "verdict": "pending"
+      }
+    ],
+    "dispatch_by": 1791226239,
+    "fits": [
+      {
+        "evidence_hashes": [
+          "078bdf7993d2c61410a60a81abb08b4d7b766c182e3a2b1e41b8a4196e864746",
+          "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+        ],
+        "explanation": "The need document explicitly rejects PVC, and the supply document identifies the material as PVC. Both documents independently confirm this incompatibility: the need states 'reject PVC' and documents that PVC releases dioxins and is not safe to process, while the supply document states 'PVC is toxic and we do not work with it' and 'don't use it' with Precious Plastic machines. This is a documented contradiction, not merely an absence of information. The 400g exchange quantity is above the 1g minimum, so quantity is not the disqualifying factor; the material identity itself is the disqualifying factor.",
+        "quotes": {
+          "need": "y toxic compound that has been shown to increase cancer, reproductive problems and immune system damage. At Precious Plastic, we don\u2019t work with PVC.\n\nIf you do need to burn a small piece of plastic to identify its type, then do so taking the proper precautions: wearing a mask and beside a proper fume filtration system. The most important thing about working with plastic: <b>You can melt it, you just can\u2019t burn it.</b> And that\u2019s an important difference.\n\n##  Volatile Organic",
+          "supply": "cking film<br>\n<b>Best ways to use with PP machines:</b> HDPE works very similar to PP, low melting temperature and easy to mould. Great material to use!\n\n<img style=\"margin-left: 0; margin-top: 50px\" src=\"../assets/plastic/type-pvc.svg\" width=\"80\"/>\n\n### PVC (3): Polyvinyl chloride\nPVC is toxic and we do not work with it. It is most commonly found in plumbing pipes and releases chloride when heated up - we do not recommend using with Precious Plastic machines!\n\n<b> Propertie"
+        },
+        "reason": "semantic_review",
+        "verdict": "no_fit"
+      },
+      {
+        "evidence_hashes": [
+          "f0cadfc2cdf7ce02e986bfbe231f8b71b7f5c67ff45180d365f67b9ee7c972fa",
+          "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+        ],
+        "explanation": "The lot provides a generic HDPE declaration with no batch-specific measurements, contamination certificates, or evidence of sorting and cleanliness. While HDPE is an accepted polymer for Precious Plastic machines, the need explicitly requires documented proof of batch purity and compliance with processing constraints. The supplied material lacks this required documentation, making it impossible to confirm fit for the 400\u202fg exchange.",
+        "quotes": {},
+        "reason": "semantic_review",
+        "verdict": "uncertain"
+      },
+      {
+        "evidence_hashes": [
+          "d840db6f3f90d611f2c7f7102e2b270dcf1828e59e08972a472ce1ea109b7e1e",
+          "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+        ],
+        "explanation": "The lot only provides a public PET declaration with no batch measurements, cleanliness verification, or contamination certificate. The Precious Plastic need explicitly requires documented evidence of batch purity and compatible processing constraints. The safety document lists acceptable plastics (PP, LDPE, HDPE) and warns against PVC and ABS, but does not confirm PET suitability for the required 400\u202fg batch. Because the necessary compatibility evidence is missing, a positive fit cannot be established, leading to an uncertain outcome.",
+        "quotes": {
+          "need": "---\nid: safety\ntitle: Safety and Fumes\nsidebar_label: Safety and Fumes\n---\n\n<div class=\"videocontainer\">\n  <iframe width=\"800\" height=\"400\" src=\"https://www.youtube.com/embed/bsj6qHHLynk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n<style>\n:root {\n  --highlight: #ffe084;\n  --links: #29bbe3;\n  --hover: rgb(131, 206, 235);\n}\n</style>\n\n# Safety and Fumes\n\n<div class=\"videoChapters\">\n<div class=",
+          "supply": "---\nid: nerdy\ntitle: Go nerdy on Plastic\nsidebar_label: Nerdy on Plastic\n---\n\n<div class=\"videocontainer\">\n  <iframe width=\"800\" height=\"400\" src=\"https://www.youtube.com/embed/T5lAKQij1F4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n<style>\n:root {\n  --highlight: #ffe084;\n  --links: #29bbe3;\n  --hover: rgb(131, 206, 235);\n}\n</style>\n\n# Going nerdy on plastic\n\n<div class=\"videoChapters\">\n<di"
+        },
+        "reason": "semantic_review",
+        "verdict": "uncertain"
+      }
+    ],
+    "grams": [
+      400,
+      400,
+      400
+    ],
+    "id": 1,
+    "lots": [
+      1,
+      2,
+      3
+    ],
+    "needs": [
+      2,
+      3,
+      1
+    ],
+    "owners": [
+      "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "0x60032dbeB40927fB4D31d001E736Da28748bEed2"
+    ],
+    "phase": "cancelled",
+    "proposer": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "receipt_ids": [],
+    "settlement_consents": [
+      false,
+      false,
+      false
+    ],
+    "sources": [
+      "https://raw.githubusercontent.com/ONEARMY/academy/"
+    ]
+  }
+}

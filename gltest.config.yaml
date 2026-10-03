@@ -1,0 +1,7 @@
+networks:
+  default: studionet
+  studionet:
+    leader_only: false
+paths:
+  contracts: contracts
+  artifacts: artifacts

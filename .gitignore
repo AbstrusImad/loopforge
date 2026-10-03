@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.credentials/
+.publish/
+__pycache__/
+.pytest_cache/
+.gltest_cache/
+.venv/
+artifacts/
+*.pyc
+*.log
+*.tmp
+*.key
+*.pem

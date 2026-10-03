@@ -1,0 +1,25 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+  "transfers": [
+    {
+      "recipient": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "1000",
+      "tx": "0x21133f69b8e3b69ed85ad716df4ab10545bf1d9e24eca2313cfc73721aa5a927",
+      "before_atto": "0",
+      "status": "finalized",
+      "after_atto": "1000",
+      "transaction_status": 7
+    },
+    {
+      "recipient": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "1000",
+      "tx": "0x45eca5cf8f8f9d9e08b76575412eecd62cec43694fa38569661d05c29be36654",
+      "before_atto": "0",
+      "status": "finalized",
+      "after_atto": "1000",
+      "transaction_status": 7
+    }
+  ]
+}

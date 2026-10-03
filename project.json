@@ -1,0 +1,122 @@
+{
+  "id": "loopforge",
+  "name": "LoopForge",
+  "status": "live",
+  "folder": "D:/proyectos/genlayer/project_for_token/main_account/loopforge",
+  "created_at": "2026-10-03T16:06:23.966431+00:00",
+  "domain": [
+    "industrial symbiosis",
+    "circular-material exchange",
+    "multilateral clearing"
+  ],
+  "audience": [
+    "material suppliers",
+    "industrial processors",
+    "circular-economy coordinators"
+  ],
+  "problem": "Bilateral waste exchanges cannot atomically reserve inventory, input capacity and performance bonds across a closed multi-party material cycle.",
+  "core_concept": "A contracts-only circular-material clearing protocol: independent semantic fit and delivery reviews coordinate six-party consent, atomic stock/capacity reservation, dispatch, contested receipts, material reuse and bonded settlement.",
+  "genlayer_intelligence": {
+    "primary_role": "Independently interpret immutable material passports against intended processing requirements and delivered evidence against agreed specifications.",
+    "state_effects": [
+      "determine whether a cycle is ratifiable",
+      "classify delivered legs",
+      "allocate performance bonds and receipt reuse credits"
+    ]
+  },
+  "protocol_mechanisms": [
+    "closed multi-party barter cycles",
+    "atomic stock and input-capacity reservation",
+    "exact wallet consent",
+    "native performance bonds",
+    "semantic material compatibility",
+    "independently reviewed delivery evidence",
+    "one evidence-changing delivery challenge",
+    "unanimous early settlement",
+    "deadline default settlement",
+    "receipt-derived inventory with conserved mass",
+    "pull compensation"
+  ],
+  "economic_model": "Each participant posts an equal GEN performance bond. A conformant outgoing leg refunds its bond; an unfulfilled leg compensates that leg's receiver. Inventory is a declared quantity ledger, not custody of physical goods.",
+  "contract_lifecycle": [
+    "admit evidence repositories",
+    "create passports and processing needs",
+    "propose a closed cycle",
+    "independently review every edge",
+    "unanimous bonded ratification",
+    "atomically reserve stock and capacity",
+    "dispatch and submit evidence",
+    "independent receipt adjudication",
+    "optional new-evidence challenge",
+    "unanimous or timed settlement",
+    "withdraw and reissue received materials"
+  ],
+  "scope": "Contracts only; no frontend or browser app; StudioNet exclusively.",
+  "design_reservation": null,
+  "scope_exceptions": {
+    "frontend": "User explicitly requested contracts only; visual style, layout and dashboard reservations do not apply."
+  },
+  "readme_fingerprint": {
+    "opening_device": "A three-factory material-transfer case followed by the conserved-quantity equations.",
+    "editorial_voice": "Industrial clearing operations and adversarial accounting notes.",
+    "document_architecture": "An execution notebook organized around simultaneous commitments, transport exceptions and conservation proofs.",
+    "diagram_language": "Cycle lifecycle state machine and conservation equalities, rather than a three-contract data-flow map.",
+    "proof_and_verification_style": "Invariant-based test claims with explicit physical-world trust limits."
+  },
+  "novelty_comparison": {
+    "against_dependency_sentinel": "Industrial materials, multi-party physical exchange, quantity conservation and bond compensation; no software advisory graph or publication gate.",
+    "other_candidates_rejected": [
+      "scientific replication agenda: evidence-graph workflow too close to prior registry/resolver structure",
+      "translation reconciliation: agreement semantics overlap Pactline",
+      "humanitarian capacity dispatch: incident operations overlap Civic Pulse",
+      "workforce qualification exchange: scheduling/credentials overlap Morrow Shift and Proofloom"
+    ],
+    "archive_project_count": 19
+  },
+  "network_deployment": {
+    "network": "StudioNet",
+    "chain_id": 61999,
+    "status": "deployed and verified",
+    "address": "0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+    "deploy_tx": "0x7336bdb9afaa60c7fa522d949bfedc8a23b3486cbabc624a25f94ef2545993eb",
+    "deployer": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "source_sha256": "a882c37ce87cbbd466c286454ad60ee7ced9739e634a4ee5c5bcf6480d0d4870",
+    "live_source_sha256": "a882c37ce87cbbd466c286454ad60ee7ced9739e634a4ee5c5bcf6480d0d4870",
+    "live_source_matches": true,
+    "live_schema_methods": 26
+  },
+  "public_links": {
+    "contract": "https://explorer-studio.genlayer.com/address/0xDcD680bedDE891E51114ACF8CB400235a4c72398",
+    "controlled_test_contract": "https://explorer-studio.genlayer.com/address/0x4eBE7B8fdE7e5905c5Be4635A0e22A7c419994F1"
+  },
+  "verification": {
+    "direct_tests": {
+      "passed": 86,
+      "failed": 0,
+      "errors": 0
+    },
+    "genvm_lint": "passed",
+    "sdk_typecheck": "passed",
+    "public_methods": 26,
+    "write_methods": 19,
+    "view_methods": 7,
+    "integration_tests": "passed; corrected source; all transactions finalized",
+    "default_model_live_review": "passed; real models and real public HTTP; no mocks",
+    "default_model_verdicts": [
+      "no_fit",
+      "uncertain",
+      "uncertain"
+    ],
+    "native_balance_audit": "passed; actual 51 attoGEN returned; contract balance zero",
+    "all_write_entrypoints_exercised": true,
+    "all_view_entrypoints_exercised": true,
+    "contract_sha256": "a882c37ce87cbbd466c286454ad60ee7ced9739e634a4ee5c5bcf6480d0d4870",
+    "finalized_contract_writes": 62,
+    "successful_contract_writes": 55,
+    "expected_refusals": 7,
+    "deployments": 2,
+    "test_funding_transfers": 2
+  },
+  "documentation_language": "English",
+  "citation_design": "Deterministic overlapping source fragments selected by integer identifiers; exact citations independently checked by validators."
+}

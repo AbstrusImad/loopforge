@@ -1,0 +1,636 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "mocked": true,
+  "transactions": [
+    {
+      "tx": "0x531750ba249a49e7bea33915c1c8dfaab59038af2aaa1462346a9c0f361d7134",
+      "method": "set_source",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xb9240d2152726bac1bd2eaf9d875ae12a169a0ffc11aea0c4ebaca93df7b3a8c",
+      "method": "create_lot",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      }
+    },
+    {
+      "tx": "0xd7e15da614046f52fddd9bc2ab1ecfd966160e1ee4380d35066e8c5be7df92ad",
+      "method": "create_need",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      }
+    },
+    {
+      "tx": "0x78bab7bb5c59316fb1bff7169ae79b06c6de4a19de8c6a7d3fa7dc3e265e51b8",
+      "method": "create_lot",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      }
+    },
+    {
+      "tx": "0xffba7f5c4176b69e2550a055e8d9d3f26d4efcd2b4d56afbcbc2ebc4eb628b39",
+      "method": "create_need",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      }
+    },
+    {
+      "tx": "0x87c84e429c980cc4f7a5f1678f66ea2f80f51642bb95c4a6d1e6f8674d4c6d8b",
+      "method": "create_lot",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      }
+    },
+    {
+      "tx": "0x66d94ffdb470942a5142a531096f27fcb35c31387b1231bd4a788239d7a0efd7",
+      "method": "create_need",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      }
+    },
+    {
+      "tx": "0x2dec9c267cf8140477ffb1c1879f5e4fd3ccef4f8b66d678ffade1ce2b3e1bda",
+      "method": "propose_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      }
+    },
+    {
+      "tx": "0xd804bebfee28bb94396d4ea7cbc02c78a1b2989c89ba43c8c88df6fda20c5896",
+      "method": "review_fit",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"529db4bc364e11ae2228fed7167fed8dca43865889ecf1d08919455538b74655\",\"53c215591e680b240fc8878f1d6f82205e6e2419954aa3547ae86158baab8acc\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"fit\"}"
+        }
+      }
+    },
+    {
+      "tx": "0xc157db6cc2dc59bfd55b06df33bc253d4f85e40021328550f00fabaf83ed16ba",
+      "method": "review_fit",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"bc657c042b87121d1126633fb0d96fb74334d945c163f72cd115a261ea097b42\",\"066ef93a4d245c5271df31c63f18b55dce9e644281e49f6a8f08b26c151b06ea\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"fit\"}"
+        }
+      }
+    },
+    {
+      "tx": "0x17bf92667bfe489ae343046774782fa563d8aeaa8d9bda668b158c7672620b84",
+      "method": "review_fit",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"3643788f8afeda11e7e50431ce2d3e96a1c0c0b2e0377aaba3fd06718c9b5542\",\"de76a683d2349fe0f11f113729fa9c87da9d368941dd651c506e3e8f08619fa1\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"fit\"}"
+        }
+      }
+    },
+    {
+      "tx": "0x78ff34e5590c7750bb93e5bf0cd7e5808f52ca3cecc452924cdc5487e09c40f2",
+      "method": "approve_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "17",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x2cbe98a37fdd1f8324f329e0712ee69300a121daa31901d30df9c12e4b9eeec5",
+      "method": "approve_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "17",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xf7cf5d2b906debbb748252281ba9d5790b23c14201455d99ddb6e804a0c34209",
+      "method": "approve_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "17",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x24d006e707c2b05def4e87103dd6973828a83954292b51e56ca7cec506f10691",
+      "method": "lock_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xdf0286e50edb72994d5fa90d1fd4d755eabe1d51efb67b17d73077753b3e89ee",
+      "method": "report_dispatch",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "dispatching supplier only",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] dispatching supplier only"
+      }
+    },
+    {
+      "tx": "0xf056a8e6c1ba36164669c6fac9af32d9b583dce0ed02ed972e67272bdbd46b5f",
+      "method": "report_dispatch",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x8716831f92bb62ca17be879b78cc1470de904c9bb631fede27f21ce96aaea96a",
+      "method": "submit_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x94600053d60122e5e38ae595cb298065d6801995734473b141fb4060464fc14d",
+      "method": "review_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"529db4bc364e11ae2228fed7167fed8dca43865889ecf1d08919455538b74655\",\"53c215591e680b240fc8878f1d6f82205e6e2419954aa3547ae86158baab8acc\",\"f0f370a3e8f9432bfef8be35d5c3dc1059a45c89ec44cfb23b173acd26395091\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"delivery\":\"The receiver confirms the agreed material and full requested quantity were received.\",\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"conformant\"}"
+        }
+      }
+    },
+    {
+      "tx": "0x74b5eab31ecd95fe6fa2d39c9006f1e7b5b7521a1c86ebd6407c932163c098f4",
+      "method": "report_dispatch",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x477c7470087d6d0c2f20175f0daa9501f4ce0a2687df5c9a9e6b7062dc3a9ed1",
+      "method": "submit_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xa035039219d35285d38029d238c4ff8aa79a63426ecbff78a9e34f6a8a9e8123",
+      "method": "review_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"bc657c042b87121d1126633fb0d96fb74334d945c163f72cd115a261ea097b42\",\"066ef93a4d245c5271df31c63f18b55dce9e644281e49f6a8f08b26c151b06ea\",\"f0f370a3e8f9432bfef8be35d5c3dc1059a45c89ec44cfb23b173acd26395091\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"delivery\":\"The receiver confirms the agreed material and full requested quantity were received.\",\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"conformant\"}"
+        }
+      }
+    },
+    {
+      "tx": "0x8bf4603d45897d0dcbb17b0ce3e57f0d797dc3f313a06f4da975abdea1530cd5",
+      "method": "report_dispatch",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x0ef4b34016740526738e9ecf66c8ab27251b5b340b12579c18eed0e0f1178004",
+      "method": "submit_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x9d09036eb731c57786bc01ae74b848c7b12054158929fe2dcce9417f563974d6",
+      "method": "review_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"3643788f8afeda11e7e50431ce2d3e96a1c0c0b2e0377aaba3fd06718c9b5542\",\"de76a683d2349fe0f11f113729fa9c87da9d368941dd651c506e3e8f08619fa1\",\"f0f370a3e8f9432bfef8be35d5c3dc1059a45c89ec44cfb23b173acd26395091\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"delivery\":\"The receiver confirms the agreed material and full requested quantity were received.\",\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"conformant\"}"
+        }
+      }
+    },
+    {
+      "tx": "0x232457034373dcf23bdefb3e21afe2c0146e41afb18660baa781ba91fdf157f2",
+      "method": "consent_settlement",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xbfb8543a137c67bc7689b68b16a4b768da6ebb56409c29400cb85f23dbbf467b",
+      "method": "consent_settlement",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xe51ed277f80fb08b7909c14c730cd590b0530eaa95fe3996ef48edd167282489",
+      "method": "consent_settlement",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x5f824eef295997bfa15ce19976a205fa53c981023ae8d8a8e518765aec43e562",
+      "method": "challenge_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "expected_rejection": null
+    },
+    {
+      "tx": "0x7cff14e7860d11f2867b3010e8fdf1479d22af903a757b960fc3936db629de48",
+      "method": "settle_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "receipt window or unanimous consent required",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] receipt window or unanimous consent required"
+      }
+    },
+    {
+      "tx": "0xe0b5429f797790af9dbe1b7014e3c16f83a13e35bbc4865ed992899785def2d7",
+      "method": "review_delivery",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"evidence_hashes\":[\"529db4bc364e11ae2228fed7167fed8dca43865889ecf1d08919455538b74655\",\"53c215591e680b240fc8878f1d6f82205e6e2419954aa3547ae86158baab8acc\",\"18164e6efb7a14a177ace9c9c1b6194e070cd50d75a59727832097cf8959339f\"],\"explanation\":\"Pinned test documents substantiate this controlled outcome.\",\"quotes\":{\"delivery\":\"The receiver confirms the agreed material and full requested quantity were received.\",\"need\":\"Processing accepts washed single-polymer granules with no incompatible additives.\",\"supply\":\"Washed single-polymer granules have no documented incompatible additives.\"},\"reason\":\"semantic_review\",\"verdict\":\"conformant\"}"
+        }
+      }
+    },
+    {
+      "tx": "0xf251a7f5b8c7a87e30c319f90570e83f44deb38af9ff607569c46a550d305eb6",
+      "method": "consent_settlement",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x7a0f67136c4aa9f5c500234bb86b4d7b4cd406f9b2c22ffc138fa40cad8ed64f",
+      "method": "consent_settlement",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0xc0748db3b83c038ba10c7b57dd858173cc66a8deb4f8fceb0d1ec04e4037dd89",
+      "method": "consent_settlement",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    },
+    {
+      "tx": "0x36990e5cd5bee2ce91ffa623f86ebd3347fe169dd0fff44bdcbb643ae116cc47",
+      "method": "settle_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "{\"accepted_legs\":3,\"cycle_id\":1,\"receipt_ids\":[1,2,3]}"
+        }
+      }
+    },
+    {
+      "tx": "0xe8dabb377533c19634b894a08bd75874526ce0089e78090da7d4524cfedae861",
+      "method": "settle_cycle",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "cycle not awaiting settlement",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] cycle not awaiting settlement"
+      }
+    },
+    {
+      "tx": "0x9a3866601e301e36187b78be3a5ece339bf286be144dfc41aab1ba2b4bd58ce3",
+      "method": "create_received_lot",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "4"
+        }
+      }
+    },
+    {
+      "tx": "0x797e981403b803e490b8afad89e2d69a8585d633e6b1a77c6084419260f83791",
+      "method": "withdraw",
+      "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      }
+    }
+  ],
+  "deploy_tx": "0x24f0b9bf7468867e5c71ce371bd50c41658a81602c9222619eaa0adead1a51f6",
+  "address": "0xDe62B1aE85E9E4e0DE5a3880BD64B3e76B5fe881",
+  "snapshot": {
+    "active_sources": [
+      "https://raw.githubusercontent.com/loopforge-integration/evidence/"
+    ],
+    "available_grams": "2050",
+    "bond_escrow_atto": "0",
+    "claimable_atto": "34",
+    "curator": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "cycles": 1,
+    "introduced_grams": "3000",
+    "lots": 4,
+    "max_cycle_legs": 6,
+    "max_cycles": 1024,
+    "max_document_bytes": 16384,
+    "needs": 3,
+    "paid_in_atto": "51",
+    "receipt_grams": "950",
+    "receipts": 3,
+    "reserved_grams": "0",
+    "retired_grams": "0",
+    "title": "LoopForge controlled GenVM integration",
+    "unreconciled_grams": "0",
+    "withdrawn_atto": "17"
+  },
+  "status": "controlled_genvm_cycle_verified"
+}

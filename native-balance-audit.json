@@ -1,0 +1,119 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "address": "0x4eBE7B8fdE7e5905c5Be4635A0e22A7c419994F1",
+  "actors": [
+    "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+    "0x60032dbeB40927fB4D31d001E736Da28748bEed2"
+  ],
+  "before_atto": [
+    "21649999999999999998000",
+    "983",
+    "983"
+  ],
+  "contract_before_atto": "34",
+  "transactions": [
+    {
+      "tx": "0x8fbcb8eb209d50621818eb4de0116c201f40338717b1d4d6f9b0de7d251e4601",
+      "method": "withdraw",
+      "address": "0x4eBE7B8fdE7e5905c5Be4635A0e22A7c419994F1",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0xcd2134e0a3e5b29cd69f28a9d0f73e64ab544ef304160b0155fdbe6f7d277543",
+      "method": "withdraw",
+      "address": "0x4eBE7B8fdE7e5905c5Be4635A0e22A7c419994F1",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x8f2044ddf0bde74446c81cdc0d3d84caa6902c1d105f4d25f53025a6e85ea360",
+      "method": "withdraw",
+      "address": "0x4eBE7B8fdE7e5905c5Be4635A0e22A7c419994F1",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "ERROR",
+      "expected_rejection": "nothing claimable",
+      "result": {
+        "status": "rollback",
+        "payload": "[EXPECTED] nothing claimable"
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 4,
+          "idle": 1
+        }
+      }
+    }
+  ],
+  "status": "actual_native_balance_changes_verified",
+  "after_atto": [
+    "21649999999999999998000",
+    "1000",
+    "1000"
+  ],
+  "contract_after_atto": "0",
+  "protocol": {
+    "active_sources": [
+      "https://raw.githubusercontent.com/loopforge-integration/evidence/"
+    ],
+    "available_grams": "2050",
+    "bond_escrow_atto": "0",
+    "claimable_atto": "0",
+    "curator": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+    "cycles": 1,
+    "introduced_grams": "3000",
+    "lots": 4,
+    "max_cycle_legs": 6,
+    "max_cycles": 1024,
+    "max_document_bytes": 16384,
+    "needs": 3,
+    "paid_in_atto": "51",
+    "receipt_grams": "950",
+    "receipts": 3,
+    "reserved_grams": "0",
+    "retired_grams": "0",
+    "title": "LoopForge controlled GenVM integration",
+    "unreconciled_grams": "0",
+    "withdrawn_atto": "51"
+  },
+  "all_seven_views_verified": true
+}

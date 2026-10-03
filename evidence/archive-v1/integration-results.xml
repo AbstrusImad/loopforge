@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="361.795" timestamp="2026-10-03T17:50:39.228567+00:00" hostname="iAbstrus"><testcase classname="tests.integration.test_studionet" name="test_three_party_clearing_challenge_and_conservation" time="361.762" /></testsuite></testsuites>

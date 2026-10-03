@@ -1,0 +1,460 @@
+{
+  "ctor": {
+    "params": [
+      [
+        "title",
+        "string"
+      ]
+    ],
+    "kwparams": {}
+  },
+  "methods": {
+    "approve_cycle": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": true
+    },
+    "cancel_cycle": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "challenge_delivery": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ],
+        [
+          "leg",
+          "int"
+        ],
+        [
+          "url",
+          "string"
+        ],
+        [
+          "sha256",
+          "string"
+        ],
+        [
+          "argument",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "consent_settlement": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "create_lot": {
+      "params": [
+        [
+          "name",
+          "string"
+        ],
+        [
+          "family",
+          "string"
+        ],
+        [
+          "grams",
+          "int"
+        ],
+        [
+          "description",
+          "string"
+        ],
+        [
+          "url",
+          "string"
+        ],
+        [
+          "sha256",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "create_need": {
+      "params": [
+        [
+          "name",
+          "string"
+        ],
+        [
+          "family",
+          "string"
+        ],
+        [
+          "capacity_grams",
+          "int"
+        ],
+        [
+          "minimum_batch_grams",
+          "int"
+        ],
+        [
+          "description",
+          "string"
+        ],
+        [
+          "url",
+          "string"
+        ],
+        [
+          "sha256",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "create_received_lot": {
+      "params": [
+        [
+          "receipt_id",
+          "int"
+        ],
+        [
+          "name",
+          "string"
+        ],
+        [
+          "grams",
+          "int"
+        ],
+        [
+          "description",
+          "string"
+        ],
+        [
+          "url",
+          "string"
+        ],
+        [
+          "sha256",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "get_claimable": {
+      "params": [
+        [
+          "address",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_cycle": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_lot": {
+      "params": [
+        [
+          "lot_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_need": {
+      "params": [
+        [
+          "need_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_receipt": {
+      "params": [
+        [
+          "receipt_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "list_cycles": {
+      "params": [
+        [
+          "start",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "array"
+    },
+    "lock_cycle": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "propose_cycle": {
+      "params": [
+        [
+          "lot_ids",
+          [
+            {
+              "$rep": "int"
+            }
+          ]
+        ],
+        [
+          "need_ids",
+          [
+            {
+              "$rep": "int"
+            }
+          ]
+        ],
+        [
+          "grams",
+          [
+            {
+              "$rep": "int"
+            }
+          ]
+        ],
+        [
+          "bond_atto",
+          "int"
+        ],
+        [
+          "accept_seconds",
+          "int"
+        ],
+        [
+          "dispatch_seconds",
+          "int"
+        ],
+        [
+          "receipt_seconds",
+          "int"
+        ],
+        [
+          "nonce",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "report_dispatch": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ],
+        [
+          "leg",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "retire_lot": {
+      "params": [
+        [
+          "lot_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "retire_need": {
+      "params": [
+        [
+          "need_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "review_delivery": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ],
+        [
+          "leg",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "dict",
+      "payable": false
+    },
+    "review_fit": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ],
+        [
+          "leg",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "dict",
+      "payable": false
+    },
+    "revoke_consent": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "set_source": {
+      "params": [
+        [
+          "repository_prefix",
+          "string"
+        ],
+        [
+          "enabled",
+          "bool"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "settle_cycle": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "dict",
+      "payable": false
+    },
+    "submit_delivery": {
+      "params": [
+        [
+          "cycle_id",
+          "int"
+        ],
+        [
+          "leg",
+          "int"
+        ],
+        [
+          "url",
+          "string"
+        ],
+        [
+          "sha256",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "withdraw": {
+      "params": [],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

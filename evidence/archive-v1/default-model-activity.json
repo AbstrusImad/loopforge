@@ -1,0 +1,227 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+  "mocked": false,
+  "leader_only": false,
+  "public_evidence_commit": "9e6fc1e75845b663add8e305a77d8f700f4732ac",
+  "scenario": "Reference documents do not prove physical batches; incompatible or incomplete legs must block consent.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/plastic/basics.md",
+      "sha256": "078bdf7993d2c61410a60a81abb08b4d7b766c182e3a2b1e41b8a4196e864746"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/build/shredderprorun.md",
+      "sha256": "f0cadfc2cdf7ce02e986bfbe231f8b71b7f5c67ff45180d365f67b9ee7c972fa"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/plastic/geeky.md",
+      "sha256": "d840db6f3f90d611f2c7f7102e2b270dcf1828e59e08972a472ce1ea109b7e1e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ONEARMY/academy/9e6fc1e75845b663add8e305a77d8f700f4732ac/docs/plastic/safety.md",
+      "sha256": "26367b2c906eff16a2999534ad3dd37784804556637d3d76da8e326eec1597b1"
+    }
+  ],
+  "transactions": [
+    {
+      "tx": "0x27c69e025c4f1696c732d095f28966b7a9f9b53d40818ddcbf0951053a3833be",
+      "method": "set_source",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "null"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x00f21892039decea70e51591693b0259670cf71692c7ffff0b86fca49fbe7663",
+      "method": "create_lot",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 1,
+          "agree": 4
+        }
+      }
+    },
+    {
+      "tx": "0x529a949b1dacff28a3668aa46676a78224a93d7d271f919e01660c4736fa2437",
+      "method": "create_need",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0x9764c34fc7267c2a69f02c468384722638d399b959a167645baa41257f76d02b",
+      "method": "create_lot",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 5
+        }
+      }
+    },
+    {
+      "tx": "0x8afd67b4af53c6053d656000440120dc84286421c64c56bd9f23dbfe3b46a589",
+      "method": "create_need",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x54D713f8Af21B7E0b70930dc1Ea3f5DeD27ddD58",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "2"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0xdf4d1bacc609e120c7ea4546f8eb6eabfb8772f638465b2ad304eb7ca6d89df2",
+      "method": "create_lot",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "idle": 2,
+          "agree": 3
+        }
+      }
+    },
+    {
+      "tx": "0x51c198ca821a5ab021004d4d4629ec3ba10cdcceb530f7943a7ece170c680bc7",
+      "method": "create_need",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x60032dbeB40927fB4D31d001E736Da28748bEed2",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "3"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0x3a5489b362b5de3acf581afd1bc27b443a41cc3124747ece339aea82729fc34a",
+      "method": "propose_cycle",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "finalized",
+      "execution": "SUCCESS",
+      "expected_rejection": null,
+      "result": {
+        "status": "return",
+        "payload": {
+          "readable": "1"
+        }
+      },
+      "consensus_summary": {
+        "validators_count": 4,
+        "leader_receipts_count": 2,
+        "vote_counts": {
+          "agree": 3,
+          "idle": 2
+        }
+      }
+    },
+    {
+      "tx": "0xa5e862a26f599404ab5725e4987783a34ab6fb2990d821c5c8c76915e248e9ec",
+      "method": "review_fit",
+      "address": "0xB8822Cf8e0394C20c6813b80d818D25cafd90C20",
+      "sender": "0x95803126315A05E642D8E46CE1d77eA2199a2A6E",
+      "value_atto": "0",
+      "status": "submitted"
+    }
+  ]
+}

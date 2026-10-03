@@ -1,0 +1,25 @@
+{
+  "sdk": "v0.3.0-rc6",
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "artifact_selection": "cached release, offline",
+  "contracts": [
+    {
+      "source": "loopforge.py",
+      "result": {
+        "ok": true,
+        "lint": {
+          "ok": true,
+          "passed": 3
+        },
+        "validate": {
+          "ok": true,
+          "contract": "LoopForge",
+          "methods": 26,
+          "view_methods": 7,
+          "write_methods": 19,
+          "ctor_params": 1
+        }
+      }
+    }
+  ]
+}
